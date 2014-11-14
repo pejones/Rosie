@@ -1,0 +1,31 @@
+#wholePage {
+        font: sans-serif;
+        width: 1200px;
+        background-color: HoneyDew;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        position: relative; 
+}
+
+#header {
+        text-align: center;
+}
+
+#headerTitle {
+	font-size: 20px;
+        width: 1200px;
+}
+
+#mainSection {
+        width: 1200px;
+        position: relative; 
+}
+ 
+
+table,tr,td {
+	border-collapse: collapse;
+	border: 20px solid black;
+        width: 1200px;
+	
+}

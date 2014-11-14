@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<title>DOM examples</title>
+	<script src="jawa.js">
+	</script>
+
+	</head>
+
+	<body class="normal">
+
+	<h1 id="headline">
+	Hello <em>World</em>
+	</h1>
+
+	<p id="content">
+		This is a normal <strong>paragraph.</strong>
+		<br>
+		<em>This is emphasised</em>
+	</p>
+
+	<ul id="list">
+	<li id="item_1">Item 1</li>
+	<li id="item_2">Item 2</li>
+	<li id="item_3">Item 3</li>
+	</ul>
+
+	<p id="demo">
+	</p>
+	<p id="demo2">
+	</p>
+
+	<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+	Click on me to display date and time</button>
+	<button type="button" onclick="myFunction()">Click me for some knee action</button>
+
+	<img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180" >
+
+	<p id="lb">Click on the light bulb to turn on/off the light</p>
+
+	<p id='demo3'>Java script can chnage the style of an element</p> 
+
+	<button type="button" onclick="myFunction2()">Click me to see style changes</button>
+
+	</body>
+</html>

@@ -1,0 +1,76 @@
+#header {
+        text-align: center;
+}
+
+#wholePage {
+        font: sans-serif;
+        width: 1200px;
+        background-color: HoneyDew;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+#header {
+        position: relative;
+        border: 1px solid black;
+}
+
+#headerTitle {
+	font-size: 20px;
+}
+
+#mainSection {
+        width: 1200px;
+}
+ 
+
+table,tr,td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	
+}
+
+#tdM {
+	/* color: red; */
+	width: 800px;
+	height: 300px; 
+	border: 1px solid black;
+	text-align: center;
+} 
+
+#tdL {
+	/* color: red; */
+	width: 200px;
+	/* height: 200px; */
+	border: 1px solid black;
+	text-align: center;
+} 
+
+#tdR {
+	/* color: red; */
+	width: 200px;
+	border: 1px solid black;
+	/ *height: 200px; */
+	text-align: right;
+}
+
+#HS {
+	color: blue;
+	width: 1000px; 
+	border: 1px solid black;
+	height: 10px;
+	text-align: center;
+}
+
+#footer {
+	/* color: red; */
+        position: relative;
+	width: 1200px;
+	border: 1px solid black; 
+}
+
+#footerTD {
+	border: 1px solid black;
+	text-align: center;
+}
